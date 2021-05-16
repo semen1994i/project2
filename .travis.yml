@@ -10,7 +10,7 @@ before_install:
 script:
   - qmake
   - make
-  - ./tests/tests.pro
+  - ./tests/tests
 
 after_success:
   - make clean
