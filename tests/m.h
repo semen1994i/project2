@@ -4,7 +4,6 @@
 #include "text.h"
 #include "_text.h"
 
-
 TEST(move, normal)
 {
     text txt = create_text();
