@@ -14,7 +14,7 @@ TEST(p1, normal)
     txt->cursor->line_num = 0;
     txt->cursor->position = 0;
 
-    p1(txt, 1, "new line\n");
+    p1(txt, "new line\n");
 
     string* txt_arr = new string[txt->lines->size()];
     copy(txt->lines->begin(), txt->lines->end(), txt_arr);
@@ -34,7 +34,7 @@ TEST(p1, without_text)
     txt->cursor->line_num = 0;
     txt->cursor->position = 0;
 
-    p1(txt, 0, "new line\n");
+    p1(txt, "new line\n");
 
     string* txt_arr = new string[txt->lines->size()];
     copy(txt->lines->begin(), txt->lines->end(), txt_arr);
