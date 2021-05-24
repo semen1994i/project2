@@ -108,7 +108,7 @@ int main()
                 if ((second_arg = strtok(NULL, "\0")) == NULL) {
                     fprintf(stderr, "Usage: p line text\n");
                 } else {
-                    int status = p1(txt, atoi(arg), second_arg);
+                    int status = p1(txt, second_arg);
                     switch (status) {
                         case SUCCESS:
                             break;
