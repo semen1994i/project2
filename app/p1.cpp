@@ -12,7 +12,7 @@
  * @param to_add текст новой строки
  * @returns статус
  */
-int p1(const text txt, int lint_num, string to_add)
+int p1(const text txt, int line_num, string to_add)
 {
     list<string>::iterator it = txt->lines->begin();
     advance(it, 1);
