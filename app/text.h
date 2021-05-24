@@ -91,6 +91,6 @@ int mlb(text txt);
  * @param to_add текст строки
  * @returns код исполнения
  */
-int p1(const text txt, int line_number, string to_add);
+int p1(const text txt, string to_add);
 
 #endif
