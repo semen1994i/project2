@@ -12,7 +12,7 @@
  */
 int mlb(const text txt)
 {
-  if((unsigned int) txt->cursor->line_num == -1)
+    if (txt->lines->size() == 0)
     txt->cursor->line_num = 0;
     if((unsigned int) txt->cursor->line_num != txt->lines->size() - 1) {
         txt->cursor->position = 0;
