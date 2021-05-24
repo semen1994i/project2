@@ -16,6 +16,7 @@ int p1(const text txt, int line_number, string to_add)
 {
     list<string>::iterator it = txt->lines->begin();
     advance(it, 1);
+    line_number += 0;
     txt->lines->insert(it, to_add);
 
     return SUCCESS;
